@@ -1,45 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Walchand Institute of Technology</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
   </head>
   <body>
-    <header>
-      <h1>Walchand Institute of Technology</h1>
+    <form action="https://github.com/" target="_blank" method="get">
+      <h1>Login</h1>
       <hr />
-      <h2>An Autonomous Institute</h2>
-      <hr />
-    </header>
-    <nav>
-      <a href="">About us</a>
-      <a href="">Department</a>
-      <a href="">Faculty</a>
-      <a href="">Research</a>
-      <a href="">Placement</a>
-      <a href="">Contact us</a>
-      <hr />
-    </nav>
-    <article>
-      <p>Accreditation & Recognition</p>
-      <ul>
-        <li>NBA</li>
+      <label for="uname"> Username :</label>
+      <input type="text" placeholder="Enter your name" id="name" />
+      <br /><label for="pass"> Password :</label>
+      <input type="text" placeholder="Enter your password" id="password" />
+      <label></label>
+      <br /><button>submit</button>
+      <a href="https://github.com/password_reset"
+        ><br />Forgot Password<br
+      /></a>
 
-        <li>NAAC</li>
-      </ul>
-    </article>
-    <hr />
-    <section>
-      <h3>News and Events</h3>
-      <p>Invitation for Annual Prize Distribution 2023 WITchar-2k23</p>
-    </section>
-    <hr />
-    <aside>
-      <h4>Why choose WIT, Solapur?</h4>
-      <p>
-        Walchand Institute of Technology, one of the pioneering self financed
-        Institution in engineering education & research was established in 1983
-        by SAPDJ Pathshala Trust
-      </p>
-    </aside>
+      <br /><label for="cars" Selected>Choose a Car :</label>
+      <select name="cars" id="cars">
+        <option value="Car1">Car1</option>
+        <option value="Car2">Car2</option>
+        <option value="Car3">Car3</option>
+      </select>
+      <br />
+      <label for="Address">Address : </label>
+      <br />
+      <textarea name="message" id="" cols="30" rows="10">
+        
+      The cat was playing in the garden.
+    </textarea
+      >
+      <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+
+      <fieldset>
+        <legend>Result</legend>
+        <label for="sem1">Sem1</label>
+        <input type="text" id="sem1"">
+        <br />
+        <label for="sem2">Sem2</label>
+        <input type="text" id="sem2"">
+        <hr />
+        <button type="button" onclick="alert('Hello World!')">Submit</button>
+      </fieldset>
+
+      <datalist id="browser">
+        <option value="Chrome">Chrome</option>
+        <option value="Mozilla">Mozilla</option>
+      </datalist>
+    </form>
   </body>
 </html>
